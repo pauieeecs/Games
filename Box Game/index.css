@@ -51,13 +51,14 @@ table {
 
 .container
 {
-    border: red solid 2px;
+    border: #ccccc1 solid 2px;
     height :90vh;
     width: 90vh;
     display :grid;
     grid-template-columns: 1fr 1fr 1fr 1fr ;
     grid-template-rows: 1fr 1fr 1fr 1fr;
 }
+
 .cell
 {
     height: 20vh;
@@ -68,13 +69,18 @@ table {
     color : black;
     text-align: center;
 }
+
 .cell:hover{
   cursor: pointer;
+  height: 17vh;
+  width: 17vh;
+  align-self: center;
+  justify-self: center;
 }
+
 .cell-1
 {
     background-color: rgb(77, 182, 172);
-
 }
 
 .d-flex {
