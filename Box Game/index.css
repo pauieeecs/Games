@@ -98,3 +98,27 @@ table {
 .height-100vh {
     height: 100vh;
 }
+
+.cell:active, .cell:focus{
+  animation-name: cell-animation;
+  animation-duration: 1s;
+}
+
+@keyframes cell-animation {
+  0%{
+    color: transparent;
+  }
+  33%{
+    background-color: #b5e7a0;
+    width: 5rem;
+    color: transparent;
+  }
+  66%{
+    background-color: #ffef96;
+    width: 5rem;
+    color: transparent;
+  }
+  100%{
+    color: transparent;
+  }
+}
