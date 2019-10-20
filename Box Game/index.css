@@ -68,6 +68,9 @@ table {
     color : black;
     text-align: center;
 }
+.cell:hover{
+  cursor: pointer;
+}
 .cell-1
 {
     background-color: rgb(77, 182, 172);
