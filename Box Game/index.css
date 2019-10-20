@@ -68,6 +68,8 @@ table {
     margin: 4px;
     color : black;
     text-align: center;
+    box-shadow: 0 10px 10px -12px #ccccc1;
+    transition: all .2s linear;
 }
 
 .cell:hover{
