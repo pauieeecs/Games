@@ -17,7 +17,7 @@ function changeCells(x, y) {
                 if(cellxy[i][j].style.backgroundColor ===  "rgb(25,25,112)" ) {
                     cellxy[i][j].style.backgroundColor = "transparent";
                 } else {
-                    cellxy[i][j].style.backgroundColor = "rgb(77, 182, 172)" ;
+                    cellxy[i][j].style.backgroundColor = "rgb(25,25,112)" ;
                 }
             }
         }
