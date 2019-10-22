@@ -14,7 +14,7 @@ function changeCells(x, y) {
     for(let i = 0; i<4; i++) {
         for(let j = 0;j < 4; j++) {
             if(x === i || y === j) {
-                if(cellxy[i][j].style.backgroundColor ===  "rgb(77, 182, 172)" ) {
+                if(cellxy[i][j].style.backgroundColor ===  "rgb(25,25,112)" ) {
                     cellxy[i][j].style.backgroundColor = "transparent";
                 } else {
                     cellxy[i][j].style.backgroundColor = "rgb(77, 182, 172)" ;
