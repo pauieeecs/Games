@@ -50,7 +50,7 @@ table {
 /**** CSS START ****/
 
 .container {
-   
+
     background-color: rgba(38, 50, 56, .5);
     border-radius: 5px;
     display: grid;
@@ -73,7 +73,7 @@ table {
 }
 
 .cell {
-    border: 1px solid rgba(204, 204, 193, .2);
+    border: 1px solid rgba(25,25,112, .2);
     border-radius: 5px;
     box-shadow: 0 10px 10px -12px #ccccc1;
     color: black;
@@ -118,4 +118,3 @@ table {
         height: 90vw;
     }
 }
-
