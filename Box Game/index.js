@@ -44,10 +44,10 @@ function changeCells1(x, y) {
     for(let i = 0; i<4; i++) {
         for(let j = 0;j < 4; j++) {
             if(x === i || y === j) {
-                if(cellxy1[i][j].style.backgroundColor ===  "rgba(255, 167, 38, .7)") {
+                if(cellxy1[i][j].style.backgroundColor ===  "rgba(255, 167, 38, 0.7)") {
                     cellxy1[i][j].style.backgroundColor = "transparent";
                 } else {
-                    cellxy1[i][j].style.backgroundColor = "rgba(255, 167, 38, .7)" ;
+                    cellxy1[i][j].style.backgroundColor = "rgba(255, 167, 38, 0.7)" ;
                 }
             }
         }
@@ -77,10 +77,10 @@ function changeCells(x, y) {
     for(let i = 0; i<4; i++) {
         for(let j = 0;j < 4; j++) {
             if(x === i || y === j) {
-                if(cellxy[i][j].style.backgroundColor ===  "rgba(255, 167, 38, .7)") {
+                if(cellxy[i][j].style.backgroundColor ===  "rgba(255, 167, 38, 0.7)") {
                     cellxy[i][j].style.backgroundColor = "transparent";
                 } else {
-                    cellxy[i][j].style.backgroundColor = "rgba(255, 167, 38, .7)" ;
+                    cellxy[i][j].style.backgroundColor = "rgba(255, 167, 38, 0.7)" ;
                 }
             }
         }
