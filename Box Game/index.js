@@ -53,7 +53,27 @@ function changeCells1(x, y) {
         }
     }
 }
+function refresh(){
+  for(let i = 0; i<4; i++) {
+      for(let j = 0;j < 4; j++) {
 
+              if(cellxy1[i][j].style.backgroundColor ===  "rgba(255, 167, 38, 0.7)") {
+                  cellxy1[i][j].style.backgroundColor = "transparent";
+              }
+
+      }
+  }
+  for(let i = 0; i<4; i++) {
+      for(let j = 0;j < 4; j++) {
+
+              if(cellxy[i][j].style.backgroundColor ===  "rgba(255, 167, 38, 0.7)") {
+                  cellxy[i][j].style.backgroundColor = "transparent";
+              }
+
+      }
+  }
+
+}
 
 function control() {
     let kosul=true;
@@ -68,7 +88,8 @@ function control() {
     }
     if(kosul){
         setTimeout(function(){
-            alert('kazandınız');
+          refresh();
+          shape();
         },200);
     }
 
